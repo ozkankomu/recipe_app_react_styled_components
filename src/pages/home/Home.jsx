@@ -48,7 +48,7 @@ const Home = () => {
           <option value="Teatime">Teatime</option>
         </select>
         <Button type="submit" className="btn btn-primary">
-          Searcsh
+          Search
         </Button>
       </form>
     </Form2>
