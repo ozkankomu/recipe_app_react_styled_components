@@ -18,6 +18,7 @@ function App() {
           path="/recipe_app_react_styled_components"
           element={<Login />}
         ></Route>
+        <Route path="/" element={<Login />}></Route>
         <Route path="/details" element={<Details />} />
 
         <Route path="/home" element={<PrivateRouter />}>
