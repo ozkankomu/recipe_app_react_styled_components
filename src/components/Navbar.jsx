@@ -42,7 +42,7 @@ const Navbar = () => {
             <ul className="navbar-nav">
               <Contact className="nav-item">
                 <NavLink
-                  to="/about"
+                  to="/recipe_app_react_styled_components/about"
                   className="nav-link active text-light"
                   aria-current="page"
                 >
@@ -51,7 +51,7 @@ const Navbar = () => {
               </Contact>
               <Contact className="nav-item">
                 <NavLink
-                  to="/"
+                  to="/recipe_app_react_styled_components/"
                   className="nav-link active text-light"
                   aria-current="page"
                 >
@@ -77,7 +77,10 @@ const Navbar = () => {
                 </a>
               </Contact>
               <Contact className="nav-item ">
-                <NavLink to="/" className="nav-link text-light" href="#">
+                <NavLink
+                  to="/recipe_app_react_styled_components/"
+                  className="nav-link text-light"
+                >
                   Log out
                 </NavLink>
               </Contact>

@@ -9,8 +9,8 @@ const Form = styled.div`
   background-color: #620505a0;
   text-align: center;
   margin: 10% auto;
-  width: 60%;
-  height: 400px;
+  width: 50%;
+  height: 450px;
   h1 {
     margin-top: 0;
     color: white;
@@ -80,6 +80,7 @@ export const Footerr = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-around;
   font-size: 1.5rem;
   color: #ffffff;

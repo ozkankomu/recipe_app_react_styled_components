@@ -25,7 +25,7 @@ const Home = () => {
   };
 
   return (
-    <div className="my-5 py-4 text-center">
+    <div className="my-5 py-5 text-center">
       <Form2>
         <h1>Please Select Receipe</h1>
         <form onSubmit={(e) => receipe(e)}>
@@ -65,9 +65,9 @@ const Home = () => {
               return (
                 <div
                   key={index}
-                  className="card col-sm-6 col-md-4 col-lg-3 col-xl-3 m-2 p-2 rounded-4 text-center"
+                  className="card col-sm-6 col-md-4 col-lg-3 col-xl-2 m-2 p-2 rounded-4 text-center"
                   style={{
-                    width: "18rem",
+                    // width: "18rem",
                     height: "29rem",
                     backgroundColor: "#0f0360b1",
                   }}
@@ -86,7 +86,7 @@ const Home = () => {
                       {recipe?.cuisineType[0]}, {recipe?.mealType[0]}
                     </p>
                     <Link
-                      to="/details"
+                      to="/recipe_app_react_styled_components/details"
                       state={recipe}
                       className="btn btn-primary w-50"
                     >

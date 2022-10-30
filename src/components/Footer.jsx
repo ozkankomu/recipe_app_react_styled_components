@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <Footerr>
       <div>Copyright {new Date().getFullYear()}</div>
-      <div>Created with Styled-Components-React-Bootstrap</div>
+      <div>Created with Styled-Components-React</div>
       <Card>
         <a href="https://www.linkedin.com/in/ozkankomu/">
           <GrLinkedin />
