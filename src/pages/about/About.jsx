@@ -1,5 +1,6 @@
 import React from "react";
 import { Text } from "../../styles/Form";
+import image from "../../assets/image.jpg";
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
       <div>
         <div>
           <img
-            src="./image.jpg"
+            src={image}
             alt=""
             style={{
               borderRadius: "50%",
