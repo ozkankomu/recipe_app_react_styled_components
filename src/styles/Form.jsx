@@ -9,7 +9,7 @@ const Form = styled.div`
   background-color: #620505a0;
   text-align: center;
   margin: 10% auto;
-  width: 700px;
+  width: 60%;
   height: 400px;
   h1 {
     margin-top: 0;
@@ -44,12 +44,13 @@ export const Button = styled.button`
 
 export const Contact = styled.button`
   font-size: 1.4rem;
-  margin-right: 0.5rem;
+  margin: 0.5rem;
   color: white;
   border: none;
   background-color: #5d0606;
   border-radius: 40%;
-  padding: 1px 1rem;
+  padding: 0.5rem;
+  width: 150px;
 
   & :hover {
     transform: scale(1.1);
@@ -75,11 +76,10 @@ export const Footerr = styled.div`
   position: fixed;
   bottom: 0px;
   left: 0px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 2rem;
   justify-content: space-around;
   font-size: 1.5rem;
   color: #ffffff;

@@ -25,7 +25,7 @@ const Home = () => {
   };
 
   return (
-    <div className="m-5 py-4">
+    <div className="my-5 py-4 text-center">
       <Form2>
         <h1>Please Select Receipe</h1>
         <form onSubmit={(e) => receipe(e)}>

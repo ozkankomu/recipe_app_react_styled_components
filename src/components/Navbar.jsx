@@ -5,23 +5,20 @@ import { Contact } from "../styles/Form";
 const Navbar = () => {
   return (
     <div>
-      {" "}
       <nav
         className="navbar navbar-expand-lg  "
         style={{
-          display: "flex",
-          justifyContent: "space-evenly",
-          alignItems: "center",
           height: "6rem",
           justifyContent: "space-around",
           fontSize: "1.5rem",
+          width: "100%",
           color: "#ffffff",
           boxShadow: "inset 5px 5px 30px black, 5px 5px 10px black",
           backgroundColor: " #4d024dde",
         }}
       >
         <div className="container-fluid  row">
-          <div className="col-7">
+          <div className="col-5">
             <img
               className="mx-4"
               src="https://i.pinimg.com/originals/37/f1/29/37f129dcee7b4890dfed08b6bd0c2a57.gif"
@@ -41,7 +38,7 @@ const Navbar = () => {
               <span className="navbar-toggler-icon" />
             </button>
           </div>
-          <div className="collapse navbar-collapse col-5" id="navbarNav">
+          <div className="collapse navbar-collapse col-8" id="navbarNav">
             <ul className="navbar-nav">
               <Contact className="nav-item">
                 <NavLink

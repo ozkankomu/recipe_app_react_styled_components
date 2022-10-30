@@ -1,7 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
 
     background-image: url("https://www.ankaradenizmatbaa.com/album/ankaradenizmatbaa/menu/menu(1).jpg");

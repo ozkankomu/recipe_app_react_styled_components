@@ -7,7 +7,7 @@ const About = () => {
       <div>
         <div>
           <img
-            src="../image.jpg"
+            src="./image.jpg"
             alt=""
             style={{
               borderRadius: "50%",
