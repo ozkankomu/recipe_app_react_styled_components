@@ -3,7 +3,7 @@ import { Text } from "../../styles/Form";
 
 const About = () => {
   return (
-    <div className="container text-center">
+    <div className="container text-center " style={{ height: "100vh" }}>
       <div>
         <div>
           <img

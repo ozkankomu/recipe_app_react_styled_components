@@ -1,7 +1,9 @@
 import React from "react";
 import { useLocation } from "react-router";
+import { useNavigate } from "react-router";
 
 const Details = () => {
+  const navigate = useNavigate();
   const { state: det } = useLocation();
   console.log(det);
 
@@ -9,7 +11,7 @@ const Details = () => {
     <div
       style={{
         height: "35vw",
-
+        height: "85vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -142,6 +144,12 @@ const Details = () => {
             className="card-footer fs-4"
             style={{ backgroundColor: "#17068760", color: "white" }}
           >
+            <button
+              onClick={() => navigate(-1)}
+              className="btn btn-primary rounded-4 px-3 mx-3"
+            >
+              Go Back
+            </button>{" "}
             Recipe Detail Page
           </div>
         </div>
