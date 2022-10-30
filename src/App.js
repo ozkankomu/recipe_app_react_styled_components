@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <GlobalStyles />
       <Routes>
-        <Route path="/" element={<Login />}></Route>
+        <Route index element={<Login />}></Route>
         <Route path="/details" element={<Details />} />
 
         <Route path="/home" element={<PrivateRouter />}>
