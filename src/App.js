@@ -18,14 +18,26 @@ function App() {
           path="/recipe_app_react_styled_components"
           element={<Login />}
         ></Route>
-        <Route path="/" element={<Login />} />
-        <Route path="/details" element={<Details />} />
+        <Route
+          path="/recipe_app_react_styled_components/"
+          element={<Login />}
+        />
+        <Route
+          path="/recipe_app_react_styled_components/details"
+          element={<Details />}
+        />
 
-        <Route path="/home" element={<PrivateRouter />}>
+        <Route
+          path="/recipe_app_react_styled_components/home"
+          element={<PrivateRouter />}
+        >
           <Route path="" element={<Home />} />
         </Route>
 
-        <Route path="/about" element={<About />} />
+        <Route
+          path="/recipe_app_react_styled_components/about"
+          element={<About />}
+        />
       </Routes>
       <Footer />
     </>
