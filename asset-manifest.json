@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/recipe_app_react_styled_components/static/css/main.31d6cfe0.css",
-    "main.js": "/recipe_app_react_styled_components/static/js/main.381a5b38.js",
+    "main.js": "/recipe_app_react_styled_components/static/js/main.567ae2f5.js",
     "index.html": "/recipe_app_react_styled_components/index.html",
-    "main.381a5b38.js.map": "/recipe_app_react_styled_components/static/js/main.381a5b38.js.map"
+    "main.567ae2f5.js.map": "/recipe_app_react_styled_components/static/js/main.567ae2f5.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.381a5b38.js"
+    "static/js/main.567ae2f5.js"
   ]
 }
