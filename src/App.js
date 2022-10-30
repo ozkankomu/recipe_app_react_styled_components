@@ -3,19 +3,28 @@ import Login from "./pages/login/Login";
 import Home from "./pages/home/Home";
 import { Routes, Route } from "react-router-dom";
 import PrivateRouter from "./pages/PrivateRouter";
+import Details from "./pages/details/Details";
+import Navbar from "./components/Navbar";
+import About from "./pages/about/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <Navbar />
       <GlobalStyles />
       <Routes>
         <Route path="/" element={<Login />}></Route>
+        <Route path="/details" element={<Details />} />
 
-        <Route path="home" element={<PrivateRouter />}>
+        <Route path="/home" element={<PrivateRouter />}>
           <Route path="" element={<Home />} />
         </Route>
+
+        <Route path="/about" element={<About />} />
       </Routes>
-    </div>
+      <Footer />
+    </>
   );
 }
 
