@@ -43,14 +43,14 @@ export const Button = styled.button`
 `;
 
 export const Contact = styled.button`
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin: 0.5rem;
   color: white;
   border: none;
   background-color: #5d0606;
   border-radius: 40%;
-  padding: 0.5rem;
-  width: 150px;
+  padding: 0.2rem;
+  width: 120px;
 
   & :hover {
     transform: scale(1.1);

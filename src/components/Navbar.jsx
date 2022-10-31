@@ -49,15 +49,7 @@ const Navbar = () => {
                   About
                 </NavLink>
               </Contact>
-              <Contact className="nav-item">
-                <NavLink
-                  to="/recipe_app_react_styled_components/"
-                  className="nav-link active text-light"
-                  aria-current="page"
-                >
-                  Login
-                </NavLink>
-              </Contact>
+
               <Contact className="nav-item">
                 <a
                   className="nav-link text-light"
