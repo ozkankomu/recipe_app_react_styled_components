@@ -13,6 +13,7 @@ const AppRouter = () => {
       <GlobalStyles />
       <Navbar />
       <Routes>
+        <Route path="/recipe_app_react_styled_components" element={<Home />} />
         <Route path="/" element={<Home />} />
 
         <Route path="/login" element={<Login />} />
