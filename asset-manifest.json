@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/recipe_app_react_styled_components/static/css/main.31d6cfe0.css",
-    "main.js": "/recipe_app_react_styled_components/static/js/main.ccfc8dd7.js",
-    "static/media/image.jpg": "/recipe_app_react_styled_components/static/media/image.b3b53bb23386bf9a3b9a.jpg",
+    "main.css": "/recipe_app_react_styled_components/static/css/main.073c9b0a.css",
+    "main.js": "/recipe_app_react_styled_components/static/js/main.fa65f215.js",
+    "static/js/787.4dd08acb.chunk.js": "/recipe_app_react_styled_components/static/js/787.4dd08acb.chunk.js",
+    "static/media/meal.svg": "/recipe_app_react_styled_components/static/media/meal.9eba888b37c920112c046969b9256a41.svg",
     "index.html": "/recipe_app_react_styled_components/index.html",
-    "main.ccfc8dd7.js.map": "/recipe_app_react_styled_components/static/js/main.ccfc8dd7.js.map"
+    "main.073c9b0a.css.map": "/recipe_app_react_styled_components/static/css/main.073c9b0a.css.map",
+    "main.fa65f215.js.map": "/recipe_app_react_styled_components/static/js/main.fa65f215.js.map",
+    "787.4dd08acb.chunk.js.map": "/recipe_app_react_styled_components/static/js/787.4dd08acb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.ccfc8dd7.js"
+    "static/css/main.073c9b0a.css",
+    "static/js/main.fa65f215.js"
   ]
 }
