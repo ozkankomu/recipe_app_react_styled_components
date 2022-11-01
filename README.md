@@ -67,7 +67,7 @@ SOLUTION
 └── yarn.lock
 ```
 
-```
+
 
 ## Screenshot
 <p align="left">
@@ -78,7 +78,7 @@ SOLUTION
 
 ## Links
 <hr>
-<b>Check The Live Website ➡️</b> <a href="https://ozkankomu.github.io/recipe_app_react_styled_components/">Live Website</a>
+<b>Check The Live Website ➡️</b> <a href="https://ozkankomu.github.io/recipe_app_react_styled_components/"> Live Website </a> 
 <hr>
 
 ### Built with
