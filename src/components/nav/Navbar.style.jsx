@@ -1,9 +1,8 @@
 import styled from "styled-components";
 import Flex from "../globalStyles/Flex.style";
 import { Link } from "react-router-dom";
-import GiHamburgerMenu from "react-icons/gi";
 
-export const Nav = styled(Flex)`
+const Nav = styled(Flex)`
   padding: 1rem 1.5rem;
   background-color: ${({ theme }) => theme.colors.navbarBgColor};
 `;
@@ -22,9 +21,9 @@ export const Brand = styled(Link)`
 
 export const Menu = styled(Flex)`
   @media (max-width: ${({ theme }) => theme.screens.lg}) {
-    flex-direction: column;
+    flex-direction:column;
     width: 100%;
-    max-height: ${({ isOpen }) => (isOpen ? "400px" : "0")};
+    max-height: ${({isOpen})=>(isOpen ? "400px" : "0")};
     overflow: hidden;
   }
 `;
@@ -55,3 +54,5 @@ export const Hamburger = styled.div`
     display: block;
   }
 `;
+
+export default Nav;
