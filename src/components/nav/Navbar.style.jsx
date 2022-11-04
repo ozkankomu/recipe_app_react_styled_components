@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import Flex from "../globalStyles/Flex.style";
 import { Link } from "react-router-dom";
-import GiHamburgerMenu from "react-icons/gi";
 
 export const Nav = styled(Flex)`
   padding: 1rem 1.5rem;

@@ -10,7 +10,6 @@ const Cards = ({ recipes }) => {
   return (
     <MainContainer wrap="wrap">
       {recipes.map(({ recipe }, index) => {
-        const {} = recipe;
         return (
           <Card key={index}>
             <Header>{recipe.label}</Header>
