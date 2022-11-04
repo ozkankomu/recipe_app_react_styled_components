@@ -14,6 +14,7 @@ const AppRouter = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/recipe_app_react_styled_components" element={<Home />} />
 
         <Route path="/login" element={<Login />} />
 
