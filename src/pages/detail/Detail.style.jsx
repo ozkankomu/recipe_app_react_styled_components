@@ -48,3 +48,13 @@ export const OtherPart = styled.div`
   font-size: 1.8rem;
   margin: 2rem;
 `;
+
+export const Button = styled.button`
+  font-size: 2rem;
+  border-radius: 20px;
+  padding: 0.6rem 2rem;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+`;

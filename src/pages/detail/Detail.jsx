@@ -9,8 +9,11 @@ import {
 } from "./Detail.style";
 import { useLocation } from "react-router";
 import diet from "../../assets/diet.svg";
+import { Button } from "./Detail.style";
+import { useNavigate } from "react-router";
 
 const Detail = () => {
+  const navigate = useNavigate();
   const { state } = useLocation();
   return (
     <DetailContainer>
@@ -63,6 +66,8 @@ const Detail = () => {
           ))}
         </IngContainer>
       </DetailPart>
+
+      <Button onClick={() => navigate(-1)}>Go Back</Button>
     </DetailContainer>
   );
 };
