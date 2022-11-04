@@ -24,6 +24,10 @@ export const Header = styled.h1`
   color: white;
   font-size: 3rem;
 `;
+export const Message = styled.h5`
+  color: white;
+  font-size: 1.5rem;
+`;
 
 export const StyledInput = styled.input`
   height: 3rem;

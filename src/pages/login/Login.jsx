@@ -7,6 +7,7 @@ import {
   StyledForm,
   StyledImg,
   StyledInput,
+  Message,
 } from "./Login.style";
 import meal from "../../assets/meal.svg";
 import { useNavigate } from "react-router-dom";
@@ -29,6 +30,7 @@ const Login = (e) => {
       <FormContainer>
         <StyledImg src={meal} />
         <Header>{"<Ozkan/>"} Recipe </Header>
+        <Message>(Please enter admin as username.)</Message>
         <StyledForm onSubmit={handleSubmit}>
           <StyledInput
             placeholder="Enter username"
