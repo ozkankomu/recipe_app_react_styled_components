@@ -14,7 +14,6 @@ const Home = () => {
 
   const mealType = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
   const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${selectedMeal}`;
-  console.log(APP_ID);
 
   const getData = async () => {
     const { data } = await axios(url);

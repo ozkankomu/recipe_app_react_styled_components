@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   FormContainer,
   Header,
@@ -10,10 +10,10 @@ import {
 } from "./Login.style";
 import meal from "../../assets/meal.svg";
 import { useNavigate } from "react-router-dom";
-
-const Login = () => {
-  const userInfo = {
-    username: "admin",
+const Login = (e) => {
+  const [userInfo, setUserInfo] = useState("aa");
+  const handleUsername = (e) => {
+    setUserInfo(e.target.value);
   };
 
   const navigate = useNavigate();
@@ -30,7 +30,11 @@ const Login = () => {
         <StyledImg src={meal} />
         <Header>{"<Ozkan/>"} Recipe </Header>
         <StyledForm onSubmit={handleSubmit}>
-          <StyledInput placeholder="Enter username" type="text" />
+          <StyledInput
+            placeholder="Enter username"
+            type="text"
+            onChange={handleUsername}
+          />
           <StyledInput placeholder="Enter password" type="password" />
           <StyledButton type="submit">Login</StyledButton>
         </StyledForm>
