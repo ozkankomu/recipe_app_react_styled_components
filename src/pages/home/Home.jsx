@@ -18,6 +18,12 @@ const Home = () => {
   const getData = async () => {
     const { data } = await axios(url);
     setRecipes(data.hits);
+    console.log(recipes);
+    console.log(url);
+    console.log(APP_ID);
+    console.log(APP_KEY);
+    console.log(query);
+    console.log(selectedMeal);
   };
 
   return (
