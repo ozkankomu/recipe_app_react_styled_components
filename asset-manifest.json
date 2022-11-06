@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/recipe_app_react_styled_components/static/css/main.073c9b0a.css",
-    "main.js": "/recipe_app_react_styled_components/static/js/main.1c23dce6.js",
+    "main.js": "/recipe_app_react_styled_components/static/js/main.8f47ea1b.js",
     "static/js/787.4dd08acb.chunk.js": "/recipe_app_react_styled_components/static/js/787.4dd08acb.chunk.js",
     "static/media/photo1.png": "/recipe_app_react_styled_components/static/media/photo1.60192c6e7a0ff7396d03.png",
     "static/media/home.svg": "/recipe_app_react_styled_components/static/media/home.1df754a91058b06a083c263a0a25979e.svg",
@@ -10,11 +10,11 @@
     "static/media/diet.svg": "/recipe_app_react_styled_components/static/media/diet.2f19967bdde3fbb1cbb98812d8f74cb2.svg",
     "index.html": "/recipe_app_react_styled_components/index.html",
     "main.073c9b0a.css.map": "/recipe_app_react_styled_components/static/css/main.073c9b0a.css.map",
-    "main.1c23dce6.js.map": "/recipe_app_react_styled_components/static/js/main.1c23dce6.js.map",
+    "main.8f47ea1b.js.map": "/recipe_app_react_styled_components/static/js/main.8f47ea1b.js.map",
     "787.4dd08acb.chunk.js.map": "/recipe_app_react_styled_components/static/js/787.4dd08acb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.1c23dce6.js"
+    "static/js/main.8f47ea1b.js"
   ]
 }
