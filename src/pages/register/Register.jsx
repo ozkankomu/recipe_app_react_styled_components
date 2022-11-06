@@ -34,6 +34,7 @@ const Register = (e) => {
         <StyledForm onSubmit={handleSubmit}>
           <StyledInput
             placeholder="Enter username"
+            required
             type="text"
             onChange={handleUsername}
           />
