@@ -29,6 +29,12 @@ const AppRouter = () => {
         <Route path="/detail" element={<PrivateRouter />}>
           <Route path="" element={<Detail />} />
         </Route>
+        <Route
+          path="/recipe_app_react_styled_components/detail"
+          element={<PrivateRouter />}
+        >
+          <Route path="" element={<Detail />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
