@@ -15,7 +15,6 @@ Recipe App
   - [Author](#author)
 
 
-
 ## The challenge
 Project aims to create a Recipe App  with React.JS/Styled-Components.In this project, I tried to use almost all styled-Components features with the intention of teaching each other..
 
